@@ -132,24 +132,6 @@ export function Memory() {
     }
   };
 
-  // useEffect(() => {
-  //   if (isCompleted && elapsedTime < 50000) {
-  //     const currentUser = JSON.parse(localStorage.getItem("currentUser") || "{}");
-
-  //     localStorage.setItem("userHasPlayed", "true");
-
-  //     const scoreData: ScoreType = {
-  //       // playerId: currentUser.data.id,
-  //       playerName: currentUser.name,
-  //       playerCompany: currentUser.company,
-  //       scoreValue: elapsedTime,
-  //       scoreType: "time",
-  //       game: "memory",
-  //     };
-
-  //     saveMemoryScore(scoreData);
-  //   }
-  // }, [isCompleted]);
 
   if (isCompleted) return <MemoryScore timeInMs={elapsedTime} />;
 
