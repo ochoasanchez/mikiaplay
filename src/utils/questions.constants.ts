@@ -60,7 +60,7 @@ const mikiaQuestions2: Question[] = [
     options: [
       "Producción animal, alimentos, tratamientos de aguas, transporte terrestre y aéreo, entre otros", "Petroquímico ", "Fertilizantes, insecticidas y abonos"
     ],
-    answer: "Producción tnimal, alimentos, tratamientos de aguas, transporte terrestre y aéreo, entre otros",
+    answer: "Producción animal, alimentos, tratamientos de aguas, transporte terrestre y aéreo, entre otros",
   },
   {
     id: 2,
