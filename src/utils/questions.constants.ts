@@ -58,7 +58,7 @@ const mikiaQuestions2: Question[] = [
     difficulty: "Easy",
     title: "¿A qué sectores estamos dirigidos?",
     options: [
-      "Producción tnimal, alimentos, tratamientos de aguas, transporte terrestre y aéreo, entre otros", "Petroquímico ", "Fertilizantes, insecticidas y abonos"
+      "Producción animal, alimentos, tratamientos de aguas, transporte terrestre y aéreo, entre otros", "Petroquímico ", "Fertilizantes, insecticidas y abonos"
     ],
     answer: "Producción tnimal, alimentos, tratamientos de aguas, transporte terrestre y aéreo, entre otros",
   },
