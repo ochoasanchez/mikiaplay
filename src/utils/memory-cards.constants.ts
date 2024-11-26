@@ -1,9 +1,9 @@
 import AiprotImage from "../assets/images/aiprot.png";
-import CipAlImage from "../assets/images/cip-al.png";
+import DerprotImage from "../assets/images/derprot.png";
 import DbgImage from "../assets/images/dbg.png"; 
 import KerprotImage from "../assets/images/kerprot.png"; 
-import PeroxiKImage from "../assets/images/peroxi-k.png";
-import PoltrakImage from "../assets/images/poltrak.png"; 
+import LSalImage from "../assets/images/lsal.png";
+import SaiprokImage from "../assets/images/saiprok.png"; 
 
 export const cardsArray: CardType[] = [
   {
@@ -14,7 +14,7 @@ export const cardsArray: CardType[] = [
   {
     id: 2,
     type: "Oxifer",
-    image: CipAlImage,
+    image: DerprotImage,
   },
   {
     id: 3,
@@ -29,11 +29,11 @@ export const cardsArray: CardType[] = [
   {
     id: 5,
     type: "Lafocit",
-    image: PeroxiKImage,
+    image: LSalImage,
   },
   {
     id: 6,
     type: "Secuvax",
-    image: PoltrakImage,
+    image: SaiprokImage,
   },
 ];

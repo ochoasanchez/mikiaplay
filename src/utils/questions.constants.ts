@@ -5,9 +5,7 @@ const mikiaQuestions: Question[] = [
     difficulty: "Easy",
     title: "¿Cuál es la actividad productiva de Químicos Mikia?",
     options: [
-      "Comercialización de materias primas para productos de limpieza", 
-      "Comercialización de medicinas", 
-      "Ofrecer productos y asesoría técnica para incrementar los niveles de Bioseguridad en diferentes sectores productivos"
+      "Comercialización de materias primas para productos de limpieza", "Comercialización de medicinas", "Ofrecer productos y asesoría técnica para incrementar los niveles de Bioseguridad en diferentes sectores productivos"
     ],
     answer: "Ofrecer productos y asesoría técnica para incrementar los niveles de Bioseguridad en diferentes sectores productivos",
   },
@@ -17,9 +15,7 @@ const mikiaQuestions: Question[] = [
     difficulty: "Easy",
     title: "El <b>LSAL MIKIA</b> es un producto dirigido a:",
     options: [
-      "Remover materia orgánica y reducir carga microbiana de diferentes sectores", 
-      "Acidificar el agua", 
-      "Eliminar incrustaciones"
+      "Remover materia orgánica y reducir carga microbiana de diferentes sectores", "Acidificar el agua", "Eliminar incrustaciones"
     ],
     answer: "Remover materia orgánica y reducir carga microbiana de diferentes sectores",
   },
@@ -27,14 +23,11 @@ const mikiaQuestions: Question[] = [
     id: 3,
     category: "Mikia",
     difficulty: "Easy",
-    title: "¿Por qué y cuándo necesito un producto espumante?",
+    title: "¿¿Qué producto Mikia se emplea para disminuir la incidencia de afecciones dérmicas en animales de producción?",
     options: [
-      "Para que se adhiera a las superficies de difícil acceso", 
-      "Al tener sucio muy adherido/ difícil de remover", 
-      "Cuando tengo un reto sanitario alto", 
-      "Todas las anteriores"
+      "LSAL Mikia", "Derprot Mikia", "Oxi – Fer Mikia"
     ],
-    answer: "Todas las anteriores",
+    answer: "Derprot Mikia",
   },
   {
     id: 4,
@@ -42,9 +35,7 @@ const mikiaQuestions: Question[] = [
     difficulty: "Medium",
     title: "El <b>LAFOCIT MIKIA</b> es un producto dirigido a:",
     options: [
-      "Destapar cañerías", 
-      "Higienización de los animales de producción", 
-      "Acidificación de agua de bebida y calidad intestinal"
+      "Destapar cañerías", "Higienización de los animales de producción", "Acidificación de agua de bebida y calidad intestinal"
     ],
     answer: "Acidificación de agua de bebida y calidad intestinal",
   },
@@ -52,13 +43,11 @@ const mikiaQuestions: Question[] = [
     id: 5,
     category: "Mikia",
     difficulty: "Medium",
-    title: "¿A qué sectores estamos dirigidos?",
+    title: "¿Para qué se utiliza el Saiprok Mikia?",
     options: [
-      "Producción Animal, Alimentos, Tratamientos de aguas, Transporte terrestre y aéreo, entre otros", 
-      "Petroquímico ", 
-      "Fertilizantes, insecticidas y abonos"
+      "Higienizar los animales de producción", "Remover incrustaciones de las tuberías", "Higienizar al personal"
     ],
-    answer: "Producción Animal, Alimentos, Tratamientos de aguas, Transporte terrestre y aéreo, entre otros",
+    answer: "Higienizar los animales de producción",
   },
 ];
 
@@ -67,23 +56,19 @@ const mikiaQuestions2: Question[] = [
     id: 1,
     category: "Mikia",
     difficulty: "Easy",
-    title: "¿Qué productos ofrecemos para los sectores productivos?",
+    title: "¿A qué sectores estamos dirigidos?",
     options: [
-      "Higiene del personal", 
-      "Limpieza, Sanitización y Desinfección", 
-      "Todas las anteriores"
+      "Producción Animal, Alimentos, Tratamientos de aguas, Transporte terrestre y aéreo, entre otros", "Petroquímico ", "Fertilizantes, insecticidas y abonos"
     ],
-    answer: "Todas las anteriores",
+    answer: "Producción Animal, Alimentos, Tratamientos de aguas, Transporte terrestre y aéreo, entre otros",
   },
   {
     id: 2,
     category: "Mikia",
     difficulty: "Easy",
-    title: "¿Qué producto utilizo si tengo problemas de amoníaco en cama de animales de producción?",
+    title: "¿Cuál es el objetivo de utilizar el Kerprot Mikia?",
     options: [
-      "DBG MIKIA", 
-      "POLTRAK MIKIA", 
-      "LAFOCIT MIKIA"
+      "Remover los sucios de la línea mamaria", "Desinfectar el agua de bebida, Facilitar el secado y desprendimiento sin traumatismo del cordón umbilical", "Todas las anteriores"
     ],
     answer: "POLTRAK MIKIA",
   },
@@ -93,10 +78,7 @@ const mikiaQuestions2: Question[] = [
     difficulty: "Easy",
     title: "¿Qué debes hacer en un proceso de limpieza?",
     options: [
-      "Limpiar en seco, pre enjuagar, aplicar el producto", 
-      "Dejar el producto en contacto con la superficie", 
-      "Realizar trabajo mecánico y enjuagar", 
-      "Todas las anteriores"
+      "Limpiar en seco, pre enjuagar, aplicar el producto", "Dejar el producto en contacto con la superficie", "Realizar trabajo mecánico y enjuagar", "Todas las anteriores"
     ],
     answer: "Todas las anteriores",
   },
