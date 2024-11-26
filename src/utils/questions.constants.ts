@@ -23,7 +23,7 @@ const mikiaQuestions: Question[] = [
     id: 3,
     category: "Mikia",
     difficulty: "Easy",
-    title: "¿¿Qué producto Mikia se emplea para disminuir la incidencia de afecciones dérmicas en animales de producción?",
+    title: "¿Qué producto Mikia se emplea para disminuir la incidencia de afecciones dérmicas en animales de producción?",
     options: [
       "LSAL Mikia", "Derprot Mikia", "Oxi – Fer Mikia"
     ],
@@ -68,9 +68,9 @@ const mikiaQuestions2: Question[] = [
     difficulty: "Easy",
     title: "¿Cuál es el objetivo de utilizar el Kerprot Mikia?",
     options: [
-      "Remover los sucios de la línea mamaria", "Desinfectar el agua de bebida, Facilitar el secado y desprendimiento sin traumatismo del cordón umbilical", "Todas las anteriores"
+      "Remover los sucios de la línea mamaria", "Desinfectar el agua de bebida", "Facilitar el secado y desprendimiento sin traumatismo del cordón umbilical", "Todas las anteriores"
     ],
-    answer: "POLTRAK MIKIA",
+    answer: "Facilitar el secado y desprendimiento sin traumatismo del cordón umbilical",
   },
   {
     id: 3,
