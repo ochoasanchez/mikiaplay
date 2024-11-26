@@ -21,6 +21,7 @@ export function Trivia() {
         const questionData = getTriviaQuestions();
         if (questionData) {
           setTriviaQuestion(questionData);
+          console.log('Question', questionData);
         } else {
           setError(
             "¡Ya llegaste al límite de intentos! <br> Gracias por Participar",
@@ -40,6 +41,8 @@ export function Trivia() {
     if (triviaQuestion && triviaQuestion.attributes.length > 0) {
       const correctAnswer =
         triviaQuestion.attributes[currentQuestionIndex].answer;
+      console.log('Trivia question', triviaQuestion)
+      console.log('Correct answer', triviaQuestion)
       if (selectedOption === correctAnswer) {
         setScore(score + 1);
       }

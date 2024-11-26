@@ -1,3 +1,4 @@
+// Trivia 1
 const mikiaQuestions: Question[] = [
   {
     id: 1,
@@ -50,6 +51,8 @@ const mikiaQuestions: Question[] = [
     answer: "Higienizar los animales de producción",
   },
 ];
+
+// Trivia 2
 
 const mikiaQuestions2: Question[] = [
   {
